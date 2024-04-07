@@ -3,7 +3,7 @@ import queryString from "query-string";
 
 console.log(localStorage.getItem("actkn" ));
 
- const baseURL = "https://full-stack-mern-movie-se-git-2bd8bf-veronicas-projects-ae312203.vercel.app/";
+const baseURL = "https://full-stack-mern-movie-se-git-2bd8bf-veronicas-projects-ae312203.vercel.app/api/v1/";
 
 const privateClient = axios.create({
   baseURL,
